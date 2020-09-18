@@ -79,39 +79,38 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-8">
 					<section>
-						<h2 id="dln-header" class="h3"><strong>Your driver licence number is made up of three (3) sets of letters and numbers</strong></h2>
+						<fieldset class="form-group">
+							<span id="cookieSpan"></span>
+							<legend class="m-b-1">Confirm your licence number and enter the last three numbers of your driver licence number</legend>
+							<ol class="step-list form-group d-flex m-b-0">
+								<li class="m-r-4">
+									<label for="lastName">Last Name</label>
+									<input type="text" id="lastName" aria-describedby="help-text-lastName" class="sd-form-element width-100" value=""></input>
+									<div class="help-block">First 5 letters or less</div>
+								</li>
+								<li class="m-r-4">
+									<label for="birthDate">Birth date</label>
+									<input type="text" id="birthDate" aria-describedby="help-text-birthDate" class="sd-form-element width-100" value=""></input>
+									<div class="help-block">DD MM YY</div>
+								</li>
+								<li class="">
+									<label for="securityCode">Last 3 numbers</label>
+									<input type="text" id="securityCode" aria-describedby="help-text-security" class="sd-form-element width-50"></input>
+									<div class="help-block">3 numbers</div>
+								</li>
+							</ol>
+						</fieldset>	
+					</section>
+					<section>
+						<h2 id="dln-header" class="h3">Your driver licence number is made up of three (3) sets of letters and numbers</h2>
 						<ol class="step-list">
-							<li id="help-text-lastName">The first 5 letters of your last name (or less if your name is shorter)</li>
-							<li id="help-text-birthDate">Your birth date entered numericly by Day Month Year (For example MM DD YY)</li>
-							<li id="help-text-security">The last 3 numbers are your personal security code</li>
+							<li id="help-text-lastName">The first 5 letters of your last name. (or less if your name is shorter)</li>
+							<li id="help-text-birthDate">Your birth date entered numericly by Day Month Year. (For example MM DD YY)</li>
+							<li id="help-text-security">The last 3 numbers are individual to you.</li>
 						</ol>
-							
 					</section>
 
-					<section>
-							<fieldset class="form-group">
-								<span id="cookieSpan"></span>
-								<legend class="m-b-1">Confirm your licence number and enter your security code</legend>
-								<ol class="step-list form-group d-flex m-b-0">
-									<li class="m-r-4">
-										<label for="lastName">Last Name</label>
-										<input type="text" id="lastName" aria-describedby="help-text-lastName" class="sd-form-element width-100" value=""></input>
-										<div class="help-block">5 letters or less</div>
-									</li>
-									<li class="m-r-4">
-										<label for="birthDate">Birth date</label>
-										<input type="text" id="birthDate" aria-describedby="help-text-birthDate" class="sd-form-element width-100" value=""></input>
-										<div class="help-block">DD MM YY</div>
-									</li>
-									<li class="">
-										<label for="securityCode">Security Code</label>
-										<input type="text" id="securityCode" aria-describedby="help-text-security" class="sd-form-element width-50"></input>
-										<div class="help-block">3 numbers</div>
-									</li>
-								</ol>
-							</fieldset>	
-							
-					</section>
+
 					<section>
 							<button class="btn-lg btn-default">Continue</button>
 					</section>
