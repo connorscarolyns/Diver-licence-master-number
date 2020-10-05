@@ -79,16 +79,16 @@
 					<section>
 							<div class="form-group">
 								<label for="firstNames">First Names</label>
-								<input type="text" id="firstNames" name="firstNames" class="sd-form-element width-400" value=""></input>
-								<div class="help-block">Enter your first names as they are printed on your licence</div>
+								<input type="text" id="firstNames" name="firstNames" class="sd-form-element width-400" aria-describedby="firstNames-help-block"></input>
+								<div class="firstNames-help-block" >Enter your first names as they are printed on your licence</div>
 							</div>
 							
 							<br/>
 							
 							<div class="form-group">
 								<label for="lastName">Last Name</label>
-								<input type="text" id="lastName" name="lastName" class="sd-form-element width-400" value=""></input>
-								<div class="help-block">Enter your last names as they are printed on your licence</div>
+								<input type="text" id="lastName" name="lastName" class="sd-form-element width-400" value="" aria-describedby="lastName-help-block"></input>
+								<div class="lastName-help-block">Enter your last name as it is printed on your licence</div>
 							</div>
 							
 							<br/>		
@@ -114,9 +114,9 @@
 				<div class="col-sm-12 col-md-4">
 					<section>
 					  <h2 class="h3 m-t-0">Where to find your information</h2>
-					  <image alt="An illustration showing where to find names on your licence" longdesc="#imageDescription" class="width-300 m-b-1" src="images/licence-names.svg"></image>
+					  <image alt="An illustration showing where to find names on your licence" longdesc="imageDescription" class="width-300 m-b-1" src="images/licence-names.svg"></image>
 					  <small id="imageDescription">
-						  <p><strong>You can find the information you need for this page printed on the front of your licence.</strong></p>
+						  <h4>You can find the information you need for this page printed on the front of your licence.</h4>
 						  <ul>
 							<li>Add the information labeled with a 2 to the "first names" field</li>
 							<li>Add the information labeled with a 1 to the "last name" field</li>

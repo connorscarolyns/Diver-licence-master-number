@@ -81,9 +81,9 @@
 					<section>
 						<h2 id="dln-header" class="h3">Your driver licence number is made up of 3 sets of letters and numbers</h2>
 						<ol class="step-list">
-							<li id="help-text-lastName">The first 5 letters of your last name (or less if your name is shorter).</li>
-							<li id="help-text-birthDate">Your birth date entered numericly by Day Month Year (For example MM DD YY).</li>
-							<li id="help-text-security">The last 3 numbers are individual to you and can be found on your driver licence.</li>
+							<li id="help-text-lastName">The first set of letters is the first 5 letters of your last name (or less if your name is shorter).</li>
+							<li id="help-text-birthDate">The second set of numbers is your birth date entered numericly by Day Month Year (For example DD MM YY).</li>
+							<li id="help-text-security">The last set of numbers are 3 numbers that are unique to you and can be found on your driver licence.</li>
 						</ol>
 					</section>
 					<section>
@@ -93,7 +93,7 @@
 							<ol class="step-list form-group d-flex m-b-0">
 								<li class="m-r-4">
 									<label for="lastName">Last Name</label>
-									<input type="text" id="lastName" aria-describedby="help-text-lastName" class="sd-form-element width-100" value=""></input>
+									<input type="text" id="lastName" name="lastName" aria-describedby="help-text-lastName" class="sd-form-element width-100" value=""></input>
 									<div class="help-block">First 5 letters or less</div>
 								</li>
 								<li class="m-r-4">
